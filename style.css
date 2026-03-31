@@ -1,0 +1,100 @@
+nav, footer{
+                height: 61px;
+                background-color: #333;
+                color:white;
+                text-align:center;
+               
+}
+         
+h2{
+		font-size: 55px;
+            color:cyan;
+            margin: 15px 15px 15px 15px;
+}
+            
+h3{
+            margin: 15px 15px 15px 15px;
+            color:white;
+}
+            
+P{
+            margin: 15px 15px 15px 15px;
+            color:white;
+}
+        
+.body{
+                height: 42.2rem;
+}     
+           
+footer,header{
+                               margin: -8px;
+                               }
+                               
+.img,  .content{
+                               display: inline-block;
+                               
+}
+
+.img{
+                background: url("./ty.jpg");
+                background-repeat: no-repeat;  
+                width: 32%;
+                height:85%;
+                margin: 63px 1px 20px 8px;
+                
+}
+.img:hover{
+      box-shadow:0 0 20px cyan;
+}
+        
+.content{
+                background-color:#333;
+                width: 66.5%;
+                height:85%;
+                margin: 64px 8px 8px 1px;
+                vertical-align:top; 
+}
+.content:hover{
+      box-shadow:0 0 20px cyan;
+}
+.topnav{
+		overflow: hidden;
+		background-color: #333;
+}
+.topnav a{
+		float: left;
+		color: cyan;
+		text-align: center;
+		padding: 22px 16px;
+		text-decoration: none;
+		font-size:17px;
+}
+.topnav a:hover{
+		background-color:#ddd;
+		color: black;
+}
+.topnav a:active{
+		background-color:green;
+		color:black
+}
+.search-container{
+		float: right;
+}
+input[type=text], button {
+			padding: 6px;
+			margin-top: 15px;
+			font-size: 17px;
+			border: none;
+}
+button{
+	margin-right: 16px;
+	margin-left: -4px;
+}
+img{
+      height: 39%;
+      width: 24%;
+      margin: -16.4% 0% 0% 74%;
+}
+.container{
+      margin: -14% 0% 0% 78.3%;
+}
